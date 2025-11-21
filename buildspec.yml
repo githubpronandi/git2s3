@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "No install needed"
+  build:
+    commands:
+      - echo "Packaging .py files"
+
+artifacts:
+  files:
+    - '*.py'          # include all python files
+  discard-paths: no   # preserve folder structure
